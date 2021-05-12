@@ -6,7 +6,7 @@ public function main() returns error? {
     // Creates a new connectionless UDP client.
     // Optionally, you can provide the address that the socket needs to bind 
     // and the timeout in milliseconds, which specifies the read timeout value.
-    // e.g.: `udp:Client client = new (localHost = "localhost", timeout = 5);`
+    // udp:Client client = new (localHost = "localhost", timeout = 5);
     udp:Client socketClient = check new;
 
     string msg = "Hello Ballerina echo";
@@ -16,7 +16,7 @@ public function main() returns error? {
         data : msg.toBytes()
     };
 
-    // Sends the data to the remote host.
+    // Sends data to the remote host.
     // The parameter is a Datagram record, which contains the `remoteHost`,
     // `remotePort`, and the `data` to be sent.
     check socketClient->sendDatagram(datagram);
