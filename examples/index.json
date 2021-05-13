@@ -684,10 +684,6 @@
                 "url": "file"
             },
             {
-                "name": "OS",
-                "url": "os"
-            },
-            {
                 "name": "Random",
                 "url": "random"
             },
@@ -879,23 +875,13 @@
                 "disablePlayground": true
             },
             {
-                "name": "Default Resource",
+                "name": "Default resource",
                 "url": "http-default-resource",
                 "disablePlayground": true
             },
             {
-                "name": "Query Parameter",
-                "url": "http-query-parameter",
-                "disablePlayground": true
-            },
-            {
-                "name": "Path Matrix Param",
-                "url": "http-path-matrix-param",
-                "disablePlayground": true
-            },
-            {
-                "name": "Resource return types",
-                "url": "http-resource-returns",
+                "name": "Query Path Matrix Param",
+                "url": "query-path-matrix-param",
                 "disablePlayground": true
             },
             {
@@ -914,13 +900,13 @@
                 "disablePlayground": true
             },
             {
-                "name": "HTTPS Client",
-                "url": "https-client",
+                "name": "Basic HTTPS Listener Client",
+                "url": "basic-https-listener-client",
                 "disablePlayground": true
             },
             {
                 "name": "Mutual SSL",
-                "url": "https-mutual-ssl",
+                "url": "mutual-ssl",
                 "disablePlayground": true
             },
             {
@@ -997,23 +983,13 @@
                 "disablePlayground": true
             },
             {
-                "name": "Returning Record Values",
-                "url": "graphql-returning-record-values",
+                "name": "Resources with Record Values",
+                "url": "graphql-resources-with-record-values",
                 "disablePlayground": true
             },
             {
-                "name": "Hierarchical Resource Paths",
+                "name": "Resources with Hierarchical Resource Paths",
                 "url": "graphql-hierarchical-resource-paths",
-                "disablePlayground": true
-            },
-            {
-                "name":"Returning Service Objects",
-                "url": "graphql-returning-service-objects",
-                "disablePlayground": true
-            },
-            {
-                "name":"Input Types",
-                "url": "graphql-input-types",
                 "disablePlayground": true
             }
         ]
@@ -1208,33 +1184,28 @@
         "category": "Working over the network",
         "samples": [
             {
-                "name": "Simple RPC",
-                "url": "grpc-simple",
+                "name": "Unary Blocking",
+                "url": "grpc-unary-blocking",
                 "disablePlayground": true
             },
             {
-                "name": "Simple RPC with Headers",
-                "url": "grpc-simple-with-headers",
-                "disablePlayground": true
-            },
-            {
-                "name": "Secured Simple RPC",
-                "url": "grpc-secured-simple",
-                "disablePlayground": true
-            },
-            {
-                "name": "Server Streaming RPC",
+                "name": "Server Streaming",
                 "url": "grpc-server-streaming",
                 "disablePlayground": true
             },
             {
-                "name": "Client Streaming RPC",
+                "name": "Client Streaming",
                 "url": "grpc-client-streaming",
                 "disablePlayground": true
             },
             {
-                "name": "Bidirectional Streaming RPC",
+                "name": "Bidirectional Streaming",
                 "url": "grpc-bidirectional-streaming",
+                "disablePlayground": true
+            },
+            {
+                "name": "Secured Unary",
+                "url": "grpc-secured-unary",
                 "disablePlayground": true
             },
             {
