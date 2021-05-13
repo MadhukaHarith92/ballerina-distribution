@@ -843,23 +843,13 @@
                 "disablePlayground": true
             },
             {
-                "name": "Default Resource",
+                "name": "Default resource",
                 "url": "http-default-resource",
                 "disablePlayground": true
             },
             {
-                "name": "Query Parameter",
-                "url": "http-query-parameter",
-                "disablePlayground": true
-            },
-            {
-                "name": "Path Matrix Param",
-                "url": "http-path-matrix-param",
-                "disablePlayground": true
-            },
-            {
-                "name": "Resource return types",
-                "url": "http-resource-returns",
+                "name": "Query Path Matrix Param",
+                "url": "query-path-matrix-param",
                 "disablePlayground": true
             },
             {
